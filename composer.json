@@ -1,0 +1,38 @@
+{
+    "name": "nourelhadi/cmi-payment",
+    "type": "library",
+    "description": "PHP package to communicate with the CMI Platform",
+    "keywords": [
+        "CMI",
+        "CMI Payment",
+        "CMI Platform",
+        "CMI ecommerce"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NOURELHADI Anouar",
+            "email": "anouar.nourelhadi@gmail.com",
+            "homepage": "https://nourelhadi.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nourelhadi\\CmiPayment\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nourelhadi\\CmiPayment\\Tests\\": "tests/"
+        }
+    }
+}
